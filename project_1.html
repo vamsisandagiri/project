@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>😉 Rock Paper Scissors Game</title>
+  <link rel="stylesheet" href="project_1.css">
+</head><header></header>
+<h1>🪨  📃  ✂️ </h1>
+<body>
+  <h1>😄 Rock Paper Scissors Game 🎮</h1>
+  <div class="choices">
+    <button class="choice-btn" onclick="playGame('rock')">Rock</button>
+    <button class="choice-btn" onclick="playGame('paper')">Paper</button>
+    <button class="choice-btn" onclick="playGame('scissors')">Scissors</button>
+  </div>
+  <div id="result"></div>
+  
+  <h2>Score</h2>
+  <table id="score-table">
+    <tr>
+      <th>Player</th>
+      <th>Computer</th>
+    </tr>
+    <tr>
+      <td id="player-score">0</td>
+      <td id="computer-score">0</td>
+    </tr>
+  </table>
+  
+  <button onclick="resetGame()">Reset</button>
+  
+  <footer>
+    <p>All rights reserved &copy; Vamsisandagiri | 2024</p>
+  </footer>
+
+  <script src="project_1.js"></script>
+
+</body>
+</html>
